@@ -181,8 +181,8 @@
     <Compile Include="..\Buddy.Test45\Properties\AssemblyInfo.cs">
       <Link>Properties\AssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="..\Buddy.Test45\Database\**\*.cs">
-      <Link>Database\%(RecursiveDir)%(FileName)</Link>
+    <Compile Include="..\Buddy.Test45\TestData\**\*.cs">
+      <Link>TestData\%(RecursiveDir)%(FileName)</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>

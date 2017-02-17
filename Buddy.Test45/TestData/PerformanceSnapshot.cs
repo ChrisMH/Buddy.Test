@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 
-namespace Buddy.Test.Database
+namespace Buddy.Test.TestData
 {
     public class PerformanceSnapshot
     {

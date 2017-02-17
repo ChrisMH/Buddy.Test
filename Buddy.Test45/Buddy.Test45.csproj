@@ -175,12 +175,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Database\PerformanceSnapshot.cs" />
+    <Compile Include="TestData\PerformanceSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="Database\Database.cs" />
+    <Compile Include="TestData\Data.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

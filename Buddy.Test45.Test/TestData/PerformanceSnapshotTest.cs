@@ -1,7 +1,7 @@
-﻿using Buddy.Test.Database;
+﻿using Buddy.Test.TestData;
 using NUnit.Framework;
 
-namespace Buddy.Test.Test.Database
+namespace Buddy.Test45.Test.TestData
 {
     public class PerformanceSnapshotTest
     {
