@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<package>
+    <metadata>
+        <id>Buddy.Test</id>
+        <version>$version$</version>
+        <title>Buddy Test</title>
+        <authors>Chris Hogan</authors>
+        <owners>Chris Hogan</owners>
+        <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+        <projectUrl>https://github.com/ChrisMH/Buddy.Test</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Simple Test utility classes</description>
+        <copyright>Copyright 2017</copyright>
+        <tags>Buddy.Test</tags>
+        <dependencies>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\Buddy.Test45\bin\Release\Buddy.Test.dll" target="lib\net45" />
+        <file src="..\Buddy.Test45\bin\Release\Buddy.Test.pdb" target="lib\net45" />
+        <file src="..\Buddy.Test451\bin\Release\Buddy.Test.dll" target="lib\net451" />
+        <file src="..\Buddy.Test451\bin\Release\Buddy.Test.pdb" target="lib\net451" />
+        <file src="..\Buddy.Test452\bin\Release\Buddy.Test.dll" target="lib\net452" />
+        <file src="..\Buddy.Test452\bin\Release\Buddy.Test.pdb" target="lib\net452" />
+        <file src="..\Buddy.Test46\bin\Release\Buddy.Test.dll" target="lib\net46" />
+        <file src="..\Buddy.Test46\bin\Release\Buddy.Test.pdb" target="lib\net46" />
+        <file src="..\Buddy.Test461\bin\Release\Buddy.Test.dll" target="lib\net461" />
+        <file src="..\Buddy.Test461\bin\Release\Buddy.Test.pdb" target="lib\net461" />
+    </files>
+</package>
