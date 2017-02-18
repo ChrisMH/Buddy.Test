@@ -201,11 +201,10 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\PerformanceSnapshots.csv" />
-    <None Include="packages.config">
-      <SubType>Designer</SubType>
-    </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>

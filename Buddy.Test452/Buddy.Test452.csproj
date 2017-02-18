@@ -204,8 +204,10 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="..\Buddy.Test45\Properties\*.csv">
-      <Link>Properties\%(FileName)</Link>
+      <Link>Properties\%(FileName).csv</Link>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
