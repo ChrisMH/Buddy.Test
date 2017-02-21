@@ -65,7 +65,8 @@
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="TestData\PerformanceSnapshotTest.cs" />
+    <Compile Include="PerformanceTestData\BacklogEntryTest.cs" />
+    <Compile Include="PerformanceTestData\PerformanceEntryTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
