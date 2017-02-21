@@ -176,7 +176,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PerformanceTestData\BacklogEntry.cs" />
-    <Compile Include="PerformanceTestData\Common.cs" />
     <Compile Include="PerformanceTestData\PerformanceEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="..\SharedAssemblyInfo.cs">

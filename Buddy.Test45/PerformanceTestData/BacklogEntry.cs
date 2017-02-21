@@ -5,8 +5,11 @@ using System.Reflection;
 
 namespace Buddy.Test.PerformanceTestData
 {
-    public class BacklogEntry : Common
+    public class BacklogEntry
     {
+        public int CustomerId { get; set; }
+        public string CustomerName { get; set; }
+        public DateTime StatTime { get; set; }
         public int Backlog { get; set; }
         public DateTime LastReceivedOn { get; set; }
         public int TotalReceived { get; set; }

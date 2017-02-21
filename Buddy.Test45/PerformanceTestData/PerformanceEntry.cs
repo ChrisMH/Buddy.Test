@@ -5,8 +5,11 @@ using System.Reflection;
 
 namespace Buddy.Test.PerformanceTestData
 {
-    public class PerformanceEntry : Common
+    public class PerformanceEntry
     {
+        public int CustomerId { get; set; }
+        public string CustomerName { get; set; }
+        public DateTime StatTime { get; set; }
         public int DatabaseConnections { get; set; }
         public int IdleDatabaseConnections { get; set; }
         public int TotalDatabaseConnections { get; set; }
